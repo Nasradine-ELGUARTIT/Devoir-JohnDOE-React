@@ -1,0 +1,99 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.skills {
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding-left: 50px;
+  padding-right: 80px;
+  width: 700%;
+}
+header {
+  background-color: #333;
+  color: white;
+}
+.skills .progress-bar1 {
+  background-color: red;
+  height: 20px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.skills .progress-bar2 {
+  background-color: cyan;
+  height: 20px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.skills .progress-bar3 {
+  background-color: orange;
+  height: 20px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.skills .progress-bar4 {
+  background-color: green;
+  height: 20px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.skills .progress-bar5 {
+  background-color: blue;
+  height: 20px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.HautDePage {
+  text-align: center;
+  background-image: url(../../public/img/hero-bg.jpg);
+  padding: 400px 0;
+}
+.HautDePage p {
+  font-size: larger;
+  color: white;
+}
+main {
+  border: white solid 2px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: inset;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.A-Propos {
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 5px;
+  padding-right: 50px;
+}
+h2 {
+  border-bottom: 5px solid blue;
+}
+main {
+  border: white solid 2px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: inset;
+}
+button {
+  text-align: center;
+  color: white;
+  background-color: rgba(204, 13, 13, 0.712);
+  border: none;
+  border-radius: 5px;
+}
+.contenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+@media screen and (max-width: 426px) {
+  .contenu {
+    display: flex;
+    flex-direction: column;
+  }
+  .skills {
+    width: 100%;
+  }
+}
